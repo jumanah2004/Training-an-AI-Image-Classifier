@@ -6,29 +6,29 @@ This project demonstrates an image classification system using a pre-trained Ker
 ---
 
 ## 1. Uploading the Image
-The image is uploaded to Google Colab and prepared before being processed by the model. During preprocessing, the image undergoes the following steps:
-* Converted to RGB format.
-* Normalized to match the input format used during model training.
-* 
-The processed image is then passed to the trained Keras model for classification.
+The input image is loaded into the (Teachable Machine) and prepared before being processed by the model. The preprocessing steps include:
+
+*Format Conversion: Converted to RGB format.
+
+*Normalization: Normalized to match the input format used during model training.
+
+The processed image is then passed directly to the trained Keras model for classification.
 
 ---
 
-## 3: Results
-
-**Prediction Output:**
-
-> **Class:** Object  
-> **Confidence Score:** `0.99968755`
-
-The model successfully classified the uploaded image as an **Object** with a confidence score of approximately **99.97%**, indicating a highly accurate prediction.
+## 3. Results(Teachable Machine)
+![image alt](https://github.com/jumanah2004/Training-an-AI-Image-Classifier/blob/65a922bfddc51a7d0871ff2d0f41b95ff6ed8c1d/Training-Al..png.jpeg)
 
 ---
 
-## 💻 Step 4: Google Colab Code Explanation
+## 4. Google Colab Code Explanation
 The code in Google Colab performs the following operations:
 1. Loads the trained Keras model (`keras_model.h5`) and the class labels from `labels.txt`.
 2. Reads the uploaded image.
 3. Resizes, normalizes, and converts the image into the required format.
 4. Passes the preprocessed image to the model using the `predict()` function.
 5. Displays the predicted class and its confidence score, allowing the user to evaluate the classification result.
+   
+---
+
+## 3. Results( Google Colab)
