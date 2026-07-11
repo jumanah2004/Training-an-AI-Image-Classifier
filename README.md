@@ -8,9 +8,8 @@ This project demonstrates an image classification system using a pre-trained Ker
 ## 1. Uploading the Image
 The image is uploaded to Google Colab and prepared before being processed by the model. During preprocessing, the image undergoes the following steps:
 * Converted to RGB format.
-* Resized to `224 × 224` pixels.
 * Normalized to match the input format used during model training.
-
+* 
 The processed image is then passed to the trained Keras model for classification.
 
 ---
