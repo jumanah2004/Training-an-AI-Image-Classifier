@@ -32,3 +32,9 @@ The code in Google Colab performs the following operations:
 ---
 
 ## 3. Results( Google Colab)
+1/1 [==============================] 
+1s 1s/step
+  
+Class: object
+
+Confidence Score: 0.99968755
